@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0px;  
+}
+
+body {
+    background: #F8F8FF;
+    color: #1a1a1a;
+}
+
+.title {
+    text-align: center;
+    font-size: 50px;
+}
+
+.dataProfile {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.dataProfile img {
+ min-width: 460px;
+ min-height: 460px;
+}
+
+.dataProfile h1{
+    font-size: 60px;
+}
+
+.dataProfile ul {
+    font-size: 30px;
+    list-style-type: none;
+}
+    
+
+.textProfile {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center
+}
